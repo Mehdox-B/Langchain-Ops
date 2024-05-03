@@ -23,9 +23,11 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/your_username/Langchain-Ops.git
 2. Install the dependencies:
+
    ```bash
    cd Langchain-Ops
    pip install -r requirements.txt
-3.Run the streamlit app:
+3. Run the streamlit app:
+   
    ```bash
    streamlit run client.py
