@@ -1,0 +1,5 @@
+.env
+/lgops
+.lgops
+/.idea
+api/__pycache__
