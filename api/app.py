@@ -15,8 +15,8 @@ app=FastAPI(
     description="Api's Documentation for AI Assistant Based on LLM Model 👌 ..."
 )
 
-os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
-os.environ['GOOGLE_API_KEY']=os.getenv('GOOGLE_API_KEY')
+# os.environ['OPENAI_API_KEY']=os.getenv('OPENAI_API_KEY')
+# os.environ['GOOGLE_API_KEY']=os.getenv('GOOGLE_API_KEY')
 # OpenAi LLM Model
 openai_model = ChatOpenAI()
 # Design the Prompt Template

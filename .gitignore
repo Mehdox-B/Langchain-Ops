@@ -2,4 +2,4 @@
 /lgops
 .lgops
 /.idea
-api/__pycache__
+__pycache__/
