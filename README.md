@@ -1,7 +1,3 @@
-<div style="background-color:#ff6666; padding:10px; text-align:center;">
-  <h2>Python Version: 3.10</h2>
-</div>
-
 # Langchain-Ops project
 
 🤖⚙️🔗
@@ -18,3 +14,18 @@ Langchain-Ops is a project that explores the power of the LangChain framework in
 - **Langsmith Compatibility**: Compatible with Langsmith for additional processing and analysis of the generated content.
 - **Extendable Architecture**: Modular and extendable architecture allows for easy integration of additional tools and technologies.
 
+## Setup
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your_username/Langchain-Ops.git
+2. Install the dependencies:
+   ```bash
+   cd Langchain-Ops
+   pip install -r requirements.txt
+3.Run the streamlit app:
+   ```bash
+   streamlit run client.py
