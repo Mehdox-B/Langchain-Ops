@@ -6,3 +6,9 @@ python-dotenv
 langserve
 fastapi
 uvicorn
+ipykernel
+sse_starlette
+bs4
+pypdf
+chromadb
+faiss-cpu
