@@ -27,7 +27,7 @@ text_2_image_tool = load_tools(["dalle-image-generator"])
 text_2_image_prompt = ChatPromptTemplate.from_template(
     """ 
     Your are a powerfull ai assistant in prompt generation.
-    Based on the description and the filters provided give a give me a specific prompt to generate good quality images.
+    Based on the description and the filters provided give me a specific prompt to generate good quality images.
     description:{description}
     filter:{filters}
     """
@@ -42,7 +42,7 @@ input_image_description = st.text_input("Let me know a short description of your
 ## Insert a filter part to let the prompt more specific
 filter_option = st.multiselect(
     "Add one or more filters you want to apply ...",
-    ["High Resolution","vintage","Realistic","4k","Vibrant colors and gradients"]
+    ["High Resolution","vintage","Realistic","4k","Vibrant colors and gradients","anime"]
 )
 if input_image_description and filter_option:
     url_image_generated = DallEAPIWrapper(model="dall-e-3",quality="standard").run(text_2_image_chain.run(description=input_image_description,filters=filter_option))

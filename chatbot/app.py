@@ -27,7 +27,7 @@ st.title('Langchain-Ops Demo With OPENAI API')
 input_text = st.text_input('Ask any Question about the topic you want ...')
 
 # Invoke OpenAI_API
-openai_llm = ChatOpenAI(model='gpt-3.5-turbo')
+openai_llm = ChatOpenAI(model='gpt-4o')
 output_parser = StrOutputParser()
 openai_chain = prompt | openai_llm | output_parser
 

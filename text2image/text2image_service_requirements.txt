@@ -1,7 +1,6 @@
 langchain_community
-langchain-google-genai
 langchain_openai
-streamlit==1.31.1
+streamlit
 langchain_core
 python-dotenv
 langserve
@@ -18,8 +17,3 @@ wikipedia
 langchainhub
 langchain-groq
 groq
-pinecone-client
-pinecone-text
-pinecone-notebooks
-langchain_huggingface
-rank_bm25
